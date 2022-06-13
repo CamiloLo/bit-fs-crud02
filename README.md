@@ -14,12 +14,13 @@ Para ejecutar este proyecto en su local asegurese de:
 
 ### Instrucciones
 
-1. Clonar repositorio ``https://github.com/javierandresgp/bit-course-full_stack_01/tree/main/26``
+1. Clonar repositorio ``https://github.com/CamiloLo/bit-fs-crud02``
 
 2. Una vez clonado el repositorio en su local, debe abrir 3 terminales y ejecutar lo siguiente
 
 ###### Terminal 1
 ```
+$ cd 10
 $ cd frontend
 $ npm install
 $ ng serve
@@ -27,6 +28,7 @@ $ ng serve
 
 ###### Terminal 2
 ```
+$ cd 10
 $ cd todosBackend
 $ npm install
 $ npm run dev
@@ -34,6 +36,7 @@ $ npm run dev
 
 ###### Terminal 3
 ```
+$ cd 10
 $ cd usersBackend
 $ npm install
 $ npm run dev
@@ -47,9 +50,9 @@ Navegue por el sitio
 
 Para acceder al contenido "Privado" primero debe registrarse y luego iniciar sesión.
 
-4. En la zona de contenido "Privado" podrá ejecutar operaciones CRUD acerca de una lista de tareas.
+4. En la zona de contenido "Privado" podrá ejecutar operaciones CRUD donde podra manejar un inventario de su Ferreteria.
 
 ¡Listo!
 
 #### Autor
-[dev](https://javierandresgp.com)
+Camilo Lopez [camilolopez1847@gmail.com]
