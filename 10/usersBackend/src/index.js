@@ -10,6 +10,8 @@ server.use(cors())
 server.use(express.json())
 server.use('/api/v1/users', usersRouter)
 
+dotenv.config()
+
 
 mongoose
 .connect('mongodb://localhost/bitUsers')
