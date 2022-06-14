@@ -4,7 +4,7 @@ const router = express.Router();
 const todoSchema = require('../models/todos')
 
 router.post('/todos', (request, response) => {
-    console.log('request:', request.body)
+    //console.log('request:', request.body)
     //response.send('Crear Tarea');
     const newTodo = todoSchema(request.body)
     newTodo.save()
